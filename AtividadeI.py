@@ -107,18 +107,7 @@ st.subheader("Conclusão")
 
 st.markdown("""
 A ideia aqui foi identificar o modelo de aprendizado de máquina mais eficaz para classificar dados no contexto agrícola. As ferramentas escolhidas foram selecionadas com base em critérios técnicos e práticos, conforme detalhado a seguir:
-### Regressão Logística
-Utilizada como **modelo de referência (baseline)**. É simples, interpretável e eficiente para identificar relações lineares entre as variáveis e a classe de saída.
 
-### Random Forest
-Modelo de aprendizado de máquina baseado em múltiplas árvores de decisão. É **robusto a overfitting**, trabalha bem com **variáveis categóricas**, e entrega resultados estáveis mesmo sem ajustes finos.
-
-### Support Vector Machine (SVM)
-Adequado para situações onde há **separação clara entre as classes**. Mostra bons resultados com datasets de **alta dimensionalidade**, embora seja mais sensível a ajustes de escala e parâmetros.
-
-### Gradient Boosting
-Apresenta alto desempenho em tarefas de classificação complexas. Constrói **modelos sequenciais otimizados**, corrigindo erros iterativamente, o que frequentemente resulta na **maior acurácia geral** — embora exija maior poder computacional e ajuste cuidadoso de hiperparâmetros.
-
-A escolha do modelo ideal vai depender da contexto da sua aplicação. como me basiei nos exemplos passados pelo professor, acabei utilizando todos os modelos apresentados em sala.
+A escolha do modelo ideal vai depender da contexto da sua aplicação. Como me basiei nos exemplos passados pelo professor, acabei utilizando todos os modelos apresentados em sala.
 
 """)
